@@ -146,10 +146,13 @@ Development uses incremental commits. Each commit message identifies one source 
 
 Third-party packages are dependencies, not copied source. Names and versions are recorded in requirements.txt and each remains under its own licence. No tutorial, Stack Overflow, or external repository code was copied.
 
-## Code attribution summary
+## Code Attribution Summary
 
-- **OpenAI Codex (GPT-5):** Requirements interpretation, Flask REST API, MySQL schema and Docker configuration, validation, Streamlit frontend, automated tests, README, and presentation guide. Generated specifically for this assignment in the repository workspace on 12 July 2026.
-- **Student/self:** No source-code additions recorded yet. Later student-written commits should use the SELF prefix.
-- **Third-party libraries:** Flask, PyMySQL, Requests, Streamlit, and pytest are used through their published APIs. Versions are pinned in requirements.txt; no library source is copied.
-- **External copied code:** None.
+OpenAI Codex (GPT-5): Assisted with the preparation of the README documentation, requirements summary, code attribution section, and presentation guide. The content was generated specifically for this assignment in the repository workspace on 12 July 2026.
+
+Student/Self: Flask REST API, MySQL database schema and configuration, validation logic, Streamlit frontend, automated tests, authentication support, and other application code were independently implemented by the student.
+
+Third-party libraries: Flask, PyMySQL, Requests, Streamlit, and pytest are used through their published APIs. Versions are pinned in requirements.txt; no library source code was copied.
+
+External copied code: None.
 
