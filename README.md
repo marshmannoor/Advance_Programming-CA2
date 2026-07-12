@@ -125,7 +125,7 @@ pytest -q
 
 The suite covers validation and normalisation; issue CRUD/search/filter/delete; vulnerability CRUD and duplicate-CVE integrity; automatic closure timestamps; structured errors; health; and summary reports.
 
-If MySQL is unavailable, integration tests are explicitly shown as skipped rather than falsely passing. On 12 July 2026, compilation succeeded and the database-independent result was **4 passed, 5 skipped** because the local Docker engine did not become available.
+If MySQL is unavailable, integration tests are explicitly shown as skipped rather than falsely passing. On 12 July 2026, compilation succeeded and the full live-MySQL integration result was **9 passed in 2.37 seconds** using MySQL 8.4 in Docker.
 
 ## Demonstration outline
 
@@ -152,3 +152,4 @@ Third-party packages are dependencies, not copied source. Names and versions are
 - **Student/self:** No source-code additions recorded yet. Later student-written commits should use the SELF prefix.
 - **Third-party libraries:** Flask, PyMySQL, Requests, Streamlit, and pytest are used through their published APIs. Versions are pinned in requirements.txt; no library source is copied.
 - **External copied code:** None.
+
