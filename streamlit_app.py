@@ -12,7 +12,8 @@ st.set_page_config(page_title="Northstar Risk Operations", page_icon="🧭", lay
 st.markdown(
     """
     <style>
-    .stApp {background: #f4f6f2;}
+    .stApp {background: #f4f6f2; color: #17201c;}
+    [data-testid="stMainBlockContainer"] {max-width: 1500px;}
     [data-testid="stSidebar"] {background: #123c31;}
     [data-testid="stSidebar"] * {color: #f4f8f5;}
     .block-container {padding-top: 2.5rem;}
@@ -21,6 +22,11 @@ st.markdown(
       border-radius: 12px; padding: 16px; box-shadow: 0 12px 35px rgba(24,44,35,.06);}
     .company {letter-spacing: .16em; color: #587067; font-size: .75rem; font-weight: 700;}
     .risk-card {background:white;border:1px solid #dfe3de;border-radius:12px;padding:18px;margin:8px 0;}
+    .risk-card h3 {color:#17201c;}
+    .risk-card p {color:#69736d;}
+    [data-testid="stMetricLabel"], [data-testid="stMetricValue"] {color:#17201c;}
+    [data-testid="stCaptionContainer"] {color:#69736d;}
+    div[data-baseweb="input"] > div, div[data-baseweb="select"] > div, textarea {background:#ffffff !important;color:#17201c !important;}
     </style>
     """,
     unsafe_allow_html=True,
