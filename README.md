@@ -147,7 +147,7 @@ Third-party packages are dependencies, not copied source. Names and versions are
 
 ## Code Attribution Summary
 
-OpenAI Codex (GPT-5): Assisted with the preparation of the README documentation, Streamlit frontend, requirements summary, code attribution section, and presentation guide. The content was generated specifically for this assignment in the repository workspace on 12 July 2026.
+OpenAI Codex (GPT-5): Assisted with the preparation of the README documentation, Streamlit frontend, requirements summary, code attribution section, help in Flask API and presentation guide.
 
 Self: Flask REST API, MySQL database schema and configuration, validation logic, and some basic other application code chunks were independently implemented by the self.
 
