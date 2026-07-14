@@ -138,7 +138,6 @@ If MySQL is unavailable, integration tests are explicitly shown as skipped rathe
 7. Show dashboard and overdue reporting.
 8. Show tests and attributed Git history.
 
-A fuller speaking guide is in docs/PRESENTATION.md.
 
 ## Development and attribution policy
 
@@ -148,11 +147,8 @@ Third-party packages are dependencies, not copied source. Names and versions are
 
 ## Code Attribution Summary
 
-OpenAI Codex (GPT-5): Assisted with the preparation of the README documentation, requirements summary, code attribution section, and presentation guide. The content was generated specifically for this assignment in the repository workspace on 12 July 2026.
+OpenAI Codex (GPT-5): Assisted with the preparation of the README documentation, Streamlit frontend, requirements summary, code attribution section, and presentation guide. The content was generated specifically for this assignment in the repository workspace on 12 July 2026.
 
-Student/Self: Flask REST API, MySQL database schema and configuration, validation logic, Streamlit frontend, automated tests, authentication support, and other application code were independently implemented by the student.
+Self: Flask REST API, MySQL database schema and configuration, validation logic, and some basic other application code chunks were independently implemented by the self.
 
 Third-party libraries: Flask, PyMySQL, Requests, Streamlit, and pytest are used through their published APIs. Versions are pinned in requirements.txt; no library source code was copied.
-
-External copied code: None.
-
